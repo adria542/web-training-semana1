@@ -76,8 +76,9 @@ git clone https://github.com/tuusuario/web-training-semana1.git
 
 Entra en la carpeta clonada:
 
-    ```bash
-    cd web-training-semana1
+```bash
+cd web-training-semana1
+```
 
 ---
 
