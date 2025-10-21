@@ -46,7 +46,7 @@ web-training-semana1/
 └── notas-equipo/
     └── tareas-semana1.md
 
-
+```
 ---
 
 ## 🤝 Cómo colaborar paso a paso
