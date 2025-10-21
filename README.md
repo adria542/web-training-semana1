@@ -70,8 +70,9 @@ web-training-semana1/
 5. Abre la terminal integrada con **Ctrl + Ñ** o **Ctrl + `**.
 6. Escribe el siguiente comando y presiona **Enter**:
 
-   ```bash
-   git clone https://github.com/tuusuario/web-training-semana1.git
+```bash
+git clone https://github.com/tuusuario/web-training-semana1.git
+```
 Entra en la carpeta clonada:
 
     ```bash
@@ -84,8 +85,10 @@ Las ramas son versiones paralelas del proyecto que permiten trabajar sin alterar
 
 Crea una nueva rama con tu nombre o rol. Por ejemplo:
 
-    ```bash
-    git checkout -b ana-figma
+```bash
+git checkout -b ana-figma
+```
+
 A partir de ahora, todos tus cambios se guardarán en tu propia rama.
 
 ---
@@ -97,11 +100,12 @@ Guarda tus cambios.
 
 En la terminal, escribe:
 
-    ```bash
-    git add .
-    git commit -m "Descripción breve de lo que hiciste"
-    git push origin ana-figma
-    (Reemplaza ana-figma por el nombre de tu rama.)
+```bash
+git add .
+git commit -m "Descripción breve de lo que hiciste"
+git push origin ana-figma
+(Reemplaza ana-figma por el nombre de tu rama.)
+```
 
 ---
 
@@ -123,14 +127,16 @@ El resto del equipo podrá revisar, comentar y aprobar tus cambios antes de inco
 ### 6️⃣ Actualizar tu copia local
 Antes de empezar a trabajar cada día, asegúrate de tener los últimos cambios del equipo:
 
-    ```bash
-    git checkout main
-    git pull origin main
-    
+```bash
+git checkout main
+git pull origin main
+```
+
 Si quieres volver a tu rama:
 
-    ```bash
-    git checkout ana-figma
+```bash
+git checkout ana-figma
+```
 
 ---
 
@@ -142,9 +148,10 @@ Usa una rama nueva para cada tarea importante.
 Escribe mensajes de commit claros y cortos.
 Ejemplo:
 
-    ```bash
-    git commit -m "Corrijo estilos del header"
-    
+```bash
+git commit -m "Corrijo estilos del header"
+```
+
 Si te equivocas, pide ayuda antes de hacer “force push”.
 
 🧠 Recursos de apoyo
