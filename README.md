@@ -73,6 +73,7 @@ web-training-semana1/
 ```bash
 git clone https://github.com/tuusuario/web-training-semana1.git
 ```
+
 Entra en la carpeta clonada:
 
     ```bash
