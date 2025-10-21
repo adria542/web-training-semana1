@@ -21,27 +21,31 @@
 
 ---
 
-## 📂 Estructura del repositorio
+## 📁 Estructura del repositorio
 
+La organización de carpetas es la siguiente:
+
+```bash
 web-training-semana1/
-│
 ├── README.md
+│
 ├── html-css/
-│ ├── index.html
-│ └── style.css
+│   ├── index.html
+│   └── style.css
 │
 ├── figma/
-│ └── enlaces.md
+│   └── enlaces.md
 │
 ├── copywriting/
-│ └── textos.md
+│   └── textos.md
 │
 ├── recursos/
-│ ├── herramientas.md
-│ └── links-curso-freecodecamp.md
+│   ├── herramientas.md
+│   └── links-curso-freecodecamp.md
 │
 └── notas-equipo/
-└── tareas-semana1.md
+    └── tareas-semana1.md
+
 
 ---
 
