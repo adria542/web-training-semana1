@@ -74,34 +74,38 @@ web-training-semana1/
    git clone https://github.com/tuusuario/web-training-semana1.git
 Entra en la carpeta clonada:
 
-bash
-Copiar código
-cd web-training-semana1
-3️⃣ Crear tu propia rama de trabajo
+    ```bash
+    cd web-training-semana1
+
+---
+
+### 3️⃣ Crear tu propia rama de trabajo
 Las ramas son versiones paralelas del proyecto que permiten trabajar sin alterar el trabajo de otros.
 
 Crea una nueva rama con tu nombre o rol. Por ejemplo:
 
-bash
-Copiar código
-git checkout -b ana-figma
+    ```bash
+    git checkout -b ana-figma
 A partir de ahora, todos tus cambios se guardarán en tu propia rama.
 
-4️⃣ Hacer tus aportes
+---
+
+### 4️⃣ Hacer tus aportes
 Abre los archivos y edita lo que necesites (HTML, CSS, textos, etc.).
 
 Guarda tus cambios.
 
 En la terminal, escribe:
 
-bash
-Copiar código
-git add .
-git commit -m "Descripción breve de lo que hiciste"
-git push origin ana-figma
-(Reemplaza ana-figma por el nombre de tu rama.)
+    ```bash
+    git add .
+    git commit -m "Descripción breve de lo que hiciste"
+    git push origin ana-figma
+    (Reemplaza ana-figma por el nombre de tu rama.)
 
-5️⃣ Crear un Pull Request (PR)
+---
+
+### 5️⃣ Crear un Pull Request (PR)
 Un Pull Request es una solicitud para que tus cambios se revisen antes de unirlos al proyecto principal.
 
 Ve al repositorio en GitHub.
@@ -114,19 +118,23 @@ Haz clic en “Create Pull Request”.
 
 El resto del equipo podrá revisar, comentar y aprobar tus cambios antes de incorporarlos al proyecto.
 
-6️⃣ Actualizar tu copia local
+---
+
+### 6️⃣ Actualizar tu copia local
 Antes de empezar a trabajar cada día, asegúrate de tener los últimos cambios del equipo:
 
-bash
-Copiar código
-git checkout main
-git pull origin main
+    ```bash
+    git checkout main
+    git pull origin main
+    
 Si quieres volver a tu rama:
 
-bash
-Copiar código
-git checkout ana-figma
-💬 Consejos útiles
+    ```bash
+    git checkout ana-figma
+
+---
+
+### 💬 Consejos útiles
 No trabajes directamente sobre la rama main.
 
 Usa una rama nueva para cada tarea importante.
@@ -134,15 +142,15 @@ Usa una rama nueva para cada tarea importante.
 Escribe mensajes de commit claros y cortos.
 Ejemplo:
 
-bash
-Copiar código
-git commit -m "Corrijo estilos del header"
+    ```bash
+    git commit -m "Corrijo estilos del header"
+    
 Si te equivocas, pide ayuda antes de hacer “force push”.
 
 🧠 Recursos de apoyo
-GitHub Desktop → alternativa visual sin usar la terminal.
+GitHub Desktop → alternativa visual sin usar la terminal.    (https://github.com/apps/desktop)
 
-Curso básico de Git y GitHub (YouTube – freeCodeCamp Español)
+Curso básico de Git y GitHub ([YouTube – freeCodeCamp Español](https://www.youtube.com/watch?v=VdGzPZ31ts8))
 
-Documentación oficial de GitHub
+Documentación oficial de GitHub (https://docs.github.com/en/get-started)
 
